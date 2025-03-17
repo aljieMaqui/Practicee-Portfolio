@@ -1,0 +1,36 @@
+*{
+    font-family: "Poppins", sans-serif;
+    li{list-style: none;}
+    a{text-decoration: none;}
+}
+/*Main Header*/
+header{min-height: 70px;}
+header .logo{float: left;}
+header .logo img{width: 100px;}
+header .navbar{float: right; padding-top: 20px;}
+header .navbar ul li{display: inline; padding-left: 50px;}
+header .navbar a{color: rgb(70, 67, 64); font-weight: bold; font-size: 20px;}
+header .navbar a:hover{color: blue;}
+/*End of Main Header*/
+
+/*banner*/
+section .wrapper-banner{min-height: 400px; background-image: url(./images/banner.png); background-position: top; background-size: cover;}
+section .banner{margin-left: 150px;}
+section .banner h1{padding-top: 25px; font-size: 50px; color: rgb(70, 67, 64);}
+section .banner p{font-size: 25px;}
+section .banner a{color: white; padding: 10px 20px; border: 1px solid blue; border-radius: 5px; background-color: blue;}
+section .banner a:hover{background-color: rgb(70, 67, 64); border: none;}
+/*End of banner*/
+
+/* about */
+.about{text-align: center;}
+/* end of about page */
+
+/* projects */
+.project h2{text-align: center;}
+.project{text-align: center;}
+.card{max-width: 50%; background-color: black; color: white; float: left; box-sizing: border-box; border: 1px solid white;}
+/* end of projects */
+
+/* footer */
+footer{min-height: 200px; text-align: center; margin-top: 30px;
